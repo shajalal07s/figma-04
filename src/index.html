@@ -37,7 +37,7 @@
     </div>
 
     <!-- Hero-Section -->
-    <section class="max-w-full mx-auto py-32 bg-[#222831] flex justify-center items-center">
+    <section class="max-w-full mx-auto py-20 lg:py-32 bg-[#222831] flex justify-center items-center">
         <div class="flex flex-col lg:flex-row justify-evenly gap-12 lg:gap-24 items-center">
             <!-- Creative Section -->
             <div class="creative-section flex flex-col items-center lg:items-start">
@@ -68,28 +68,29 @@
                 <div class="img-1">
                   <!-- First Image: Responsive Width and Height -->
                     <img src="../figma-04-img/hero-2-img.png" 
-                   class="w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[514px] lg:h-[514px] object-cover" alt="">
+                   class="w-[400px] h-[300px] lg:w-[514px] lg:h-[514px] object-cover" alt="">
                 </div>
 
                 <!-- Second Image: Responsive Positioning -->
                 <div class="img-2 absolute top-20  sm:top-[-100px] lg:top-52 lg:right-32">
                    <img src="../figma-04-img/hero-3-img.png" 
-                      class="w-[100px] h-[250px] sm:w-[280px] sm:h-[300px] lg:w-[400px] lg:h-[472px]" alt="">
+                      class="w-[300px] h-[300px] lg:w-[400px] lg:h-[472px]" alt="">
                 </div>
             </div>
         </div>
     </section>
-    
+    <div class="w-full border-b-2 border-black lg:border-0"></div>
     <!-- About Section -->
 
-    <section class="max-w-full mx-auto py-40 h-[1040px] bg-[#222831] flex justify-center items-center">
+    <section class="max-w-full mx-auto py-10 lg:py-40 h-[800px] lg:h-[1040px] bg-[#222831] flex justify-center items-center">
         <div class="flex flex-col lg:flex-row justify-evenly gap-12 lg:gap-24 items-center">
-            <!-- Creative Section -->
+            <!-- About-Text-Section -->
             <div class="creative-section flex flex-col items-center lg:items-start">
                 <div>
-                    <!-- Headline: Responsive Font Size -->
-                    <p class="text-6xl font-bold text-white">About me</p>
-                    <p class="text-lg text-white mt-2">Lorem ipsum dolor sit amet, consectetur <br>
+                    <!-- About Text -->
+                    <p class="text-6xl font-bold text-white text-center lg:text-left">About me</p>
+                    <p class="text-base lg:text-lg text-white mt-2 text-center lg:text-left">
+                        Lorem ipsum dolor sit amet, consectetur <br>
                         adipiscing elit. Nunc vulputate libero et <br>
                         velit interdum, ac aliquet odio mattis. Class <br>
                         aptent taciti sociosqu ad litora torquent per conubia nostra, <br>
@@ -100,13 +101,15 @@
                     <!-- Image 1-->
                     <div class="create-img relative">
                         <img src="../figma-04-img/about-section-1 (4).png" 
-                             class="w-[62px] h-[47px] object-cover absolute bottom-80" alt="">
+                             class="w-[62px] h-[47px] object-cover absolute bottom-80 left-10 
+                             lg:block hidden sm:left-96 lg:left-0" alt="">
                     </div>
 
                     <!-- Image 2-->
                     <div class="create-img relative">
                         <img src="../figma-04-img/about-section-1 (5).png" 
-                             class="w-[58px] h-[88px] object-cover absolute bottom-48 left-80" alt="">
+                             class="w-[58px] h-[88px] object-cover absolute bottom-48 
+                             lg:block hidden sm:bottom- left-80" alt="">
                     </div>
 
                     <!-- Image 3-->
@@ -119,22 +122,31 @@
     
         
             <!-- Image Section -->
-            <div class="image-section flex relative justify-center lg:justify-end">
+            <div class="image-section flex relative mt-10 sm:mt-10 lg:mt-36 justify-center lg:justify-end">
                 <div class="img-1">
-                  <!-- First Image: Responsive Width and Height -->
+                  <!-- First Image -->
                     <img src="../figma-04-img/about-section-1 (2).png" 
-                   class="w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[665px] lg:h-[500px] object-cover" alt="">
+                   class="w-[400px] h-[300px] lg:w-[665px] lg:h-[500px]" alt="">
                 </div>
 
-                <!-- Second Image: Responsive Positioning -->
+                <!-- Second Image-->
                 <div class="img-2 absolute top-20  sm:top-[-100px] lg:top-52 lg:right-32">
                    <img src="../figma-04-img/about-section-1 (1).png" 
-                      class="w-[100px] h-[250px] sm:w-[280px] sm:h-[300px] lg:w-[412px] lg:h-[354px]" alt="">
+                      class="w-[400px] h-[300px] lg:w-[412px] lg:h-[354px]" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <div class="w-full border-b-2 border-white"></div>
+    <div class="w-full border-b-2 lg:border-0"></div>
+
+    <!-- Work Section -->
+
+    <section>
+        <!-- Work-Section-Img -->
+        <div class="work-img">
+            
+        </div>
+    </section>
     
 </body>
 </html>
