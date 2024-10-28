@@ -184,35 +184,62 @@
     </section>
     
     <!-- Contuct Us Section -->
-    <section class="max-w-full mx-auto py-10 lg:py-14 h-[1200px] lg:h-[1040px]
+    <section class="max-w-full mx-auto h-[1500px] lg:h-[1040px]
        bg-[#222831] flex flex-row lg:flex-col justify-center items-center">
-        <div class="flex justify-between items-center">
+        <div class="flex flex-col lg:flex-row justify-evenly gap-72 items-center">
            <!-- Section-1 -->
-           <div class="section-1">
-              <p>Got a project in mind?</p>
-              <img src="../figma-04-img/contuct-img-1.png" alt="">
-              <img src="../figma-04-img/contuct-img-2.png" alt="">
+           <div class="section-1 mt-52 lg:mt-0">
+               <p class="text-4xl lg:text-5xl font-bold text-white">Got a project in 
+                   <br> <span class="text-[#00ADB5]">mind?</span>
+               </p>
+                <div class="flex">
+                    <img src="../figma-04-img/contuct-img-1.png"
+                     class="w-[170px] h-[113px] mt-24 hidden lg:block" alt="">
+                    <img src="../figma-04-img/contuct-img-2.png" 
+                     class="w-[255px] h-[348px] mt-10" alt="">
+                </div>
            </div>
            <!-- Section-2 -->
-            <div>
-                <div class="section-2">
-                    <img src="../figma-04-img/contuct-img-3.png" alt="">
-                    <div class="contuct-form">
+            <div class="flex flex-col  justify-center items-center">
+                <div class="section-2 flex flex-col">
+                    <div>
+                        <img src="../figma-04-img/contuct-img-3.png"
+                        class="w-[140px] h-[63px] -rotate-6 mb-20 ml-24 hidden lg:block" alt="">
+                    </div>
+                    <div class="contuct-form mx-auto mb-20">
                         <div class="flex gap-6">
                             <div>
-                                <p>Your name</p>
-                                <input type="Name" placeholder="Name">
+                                <p class="text-white">Your name</p>
+                                <input type="Name" placeholder="Name" 
+                                class="w-full px-4 py-2 bg-[#333842] mt-2 rounded-md text-white focus:outline-none">
                             </div>
                             <div>
-                                <p>Your Gmail</p>
-                                <input type="Gmail" placeholder="Gmail">
-                            </div>
-                            
+                                <p class="text-white">Your Gmail</p>
+                                <input type="Gmail" placeholder="Gmail"
+                                class="w-full px-4 py-2 bg-[#333842] mt-2 rounded-md text-white focus:outline-none">
+                            </div>      
                         </div>
-                        <div>
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <div class="mt-4">
+                            <p class="text-white">Your Massage</p>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:250px"
+                            class="w-full px-4 py-2 mt-3 bg-[#333842] rounded-md text-white focus:outline-none"></textarea>
                         </div>
+                        <!-- Send Button -->
+                        <div class="text-center mt-6 lg:text-left">
+                            <button type="submit" class="px-6 py-1 bg-[#00ADB5] rounded-full
+                              text-white font-semibold flex items-center justify-center gap-2 hover:bg-[#00adb5cc] transition">
+                               Send Message
+                               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" 
+                                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M22 2L11 13"></path>
+                                   <path d="M22 2L15 22l-4-9-9-4z"></path>
+                               </svg>
+                           </button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../figma-04-img/contuct-img-4.png" 
+                        class="w-[58px] h-[49px] ml-96 hidden lg:block" alt="">
                     </div>
                 </div>
             </div>
