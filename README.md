@@ -27,20 +27,19 @@ You need to have the following installed on your machine:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shajalal07s/figma-03.git
+   https://github.com/shajalal07s/figma-04.git
 
 ## All Page Full-Width
 
-https://drive.google.com/drive/folders/1F_8vAB1uVhMnlwBw5FxBi-g2j31MEe-y?usp=sharing
-
+https://drive.google.com/file/d/1a7BEpVjuJHkJx2BzjJ6HKc9X6VYISMaw/view?usp=drive_link
 
 ## All Page Responsive-Mobile
 
-https://drive.google.com/drive/folders/1Hx87o_5U1KweDDhkvNnhafkSZqNteq67?usp=drive_link
+https://drive.google.com/file/d/1bcbeYm_npalElrmUe7mAq_Amrg2jpsjf/view?usp=drive_link
 
 ## All Page Responsive-Laptop
-https://drive.google.com/drive/folders/13uzz2MuULua6frkeNa9g2VVZUEpoW2eS?usp=drive_link
 
+https://drive.google.com/file/d/1_qgDEJKRoayJVKS1nypYKJDbuawv87AL/view?usp=drive_link
 
 ## About Me
 

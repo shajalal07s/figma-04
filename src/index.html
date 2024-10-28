@@ -29,11 +29,11 @@
     </header>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden absolute top-9% left-0 w-full h-[500px]
-         bg-white md:hidden flex flex-col items-center justify-center space-y-8">
-        <a href="#" class="text-lg font-medium text-red-500">Home</a>
-        <a href="#" class="text-lg font-medium text-gray-600">About Me</a>
-        <a href="#" class="text-lg font-medium text-gray-600">Contact</a>
+    <div id="mobile-menu" class="hidden absolute top-1% left-0 w-full h-[400px]
+         bg-[#7394c6] md:hidden flex flex-col items-center justify-center space-y-8">
+        <a href="#" class="text-lg font-medium text-white">Home</a>
+        <a href="#" class="text-lg font-medium text-white">About Me</a>
+        <a href="#" class="text-lg font-medium text-white">Contact</a>
     </div>
 
     <!-- Hero-Section -->
@@ -284,5 +284,15 @@
            <p class="text-lg absolute right-28 lg:right-20">Terms of Service - Privacy Policy</p>
         </div>
     </footer>
+
+
+    <script>
+        let menuBtn = document.getElementById('menu-btn');
+        let mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 </body>
 </html>
