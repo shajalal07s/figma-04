@@ -29,17 +29,17 @@ You need to have the following installed on your machine:
    ```bash
    https://github.com/shajalal07s/figma-04.git
 
-## All Page Full-Width
+## Destop
 
-https://drive.google.com/file/d/1a7BEpVjuJHkJx2BzjJ6HKc9X6VYISMaw/view?usp=drive_link
+https://drive.google.com/file/d/1xmT8IGmUU-vy-4y7yCLiokOqdxfGMgPa/view?usp=drive_link
 
-## All Page Responsive-Mobile
+## Mobile [Responsive]
 
-https://drive.google.com/file/d/1bcbeYm_npalElrmUe7mAq_Amrg2jpsjf/view?usp=drive_link
+https://drive.google.com/file/d/1SVldbKc8wCJQkRISA3BQk7y5EWgmyrlq/view?usp=drive_link
 
-## All Page Responsive-Laptop
+## Lablet [Responsive]
 
-https://drive.google.com/file/d/1_qgDEJKRoayJVKS1nypYKJDbuawv87AL/view?usp=drive_link
+https://drive.google.com/file/d/1wsz93cpFy7mCJDHAzm6UrT_Hp3ZdvoZP/view?usp=drive_link
 
 ## About Me
 
